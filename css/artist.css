@@ -1,3 +1,26 @@
+.mfn-main-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust based on your design */
+    background-color: #000; /* Optional: background color to better see centering */
+}
+
+.section_video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+}
+
+.section_video video {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Adjust based on desired effect */
+}
+
 #sc_gallery-1 {
 	margin: auto;
 	}

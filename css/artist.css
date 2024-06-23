@@ -1,3 +1,7 @@
+#Top_bar .menu>li.color-pink>a:after {
+	top: 0;
+	background: #ed007b
+}
 .mfn-main-slider {
     display: flex;
     justify-content: center;

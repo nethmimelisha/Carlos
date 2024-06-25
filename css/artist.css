@@ -1,6 +1,26 @@
-#Top_bar .menu>li.color-pink>a:after {
+#Top_bar .menu>li.color-red>a:after {
 	top: 0;
-	background: #ed007b
+	background: #ee363c
+}
+#Top_bar .menu>li.color-yellow>a:after {
+	top: 0;
+	background: #fed808
+}
+#Top_bar .menu>li.color-orange>a:after {
+	top: 0;
+	background: #e95627
+}
+#Top_bar .menu>li.color-blue>a:after {
+	top: 0;
+	background: #06ade4
+}
+#Top_bar .menu>li.color-green>a:after {
+	top: 0;
+	background: #74bd44
+}
+#Top_bar .menu>li.color-purple>a:after {
+	top: 0;
+	background: #6952a1
 }
 .mfn-main-slider {
     display: flex;

@@ -63,6 +63,21 @@
 	margin-left: 0;
 	}
 	
+.image_wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+	
+.image_links {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px; /* Adjust as needed */
+	}
+
+	
 #Filters.only .filters_buttons {
 	display: none
 }

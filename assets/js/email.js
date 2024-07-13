@@ -43,7 +43,7 @@ function sendRequest() {
 	catch(e){}
 	finally{
 	jQuery('#contactform').slideUp("slow").hide();
-	jQuery('#contactWrapper').append('<div class="success"><h4>Email Successfully Sent!</h4><br><p>Thank you for using our contact form <strong>'+decodeURIComponent(name)+'</strong>! Your email was successfully sent and we&#39;ll be in touch with you soon.</p></div>');
+	jQuery('#contactWrapper').append('<div class="success"><h4>Email Successfully Sent!</h4><br><p>Thank you for Contacting us. <strong>'+decodeURIComponent(name)+'</strong>! Your email was successfully sent and we&#39;ll be in touch with you soon.</p></div>');
 	}
 }
 function sendRequest_booking() {
@@ -71,7 +71,7 @@ function sendRequest_booking() {
 	catch(e){}
 	finally{
 	jQuery('#contactform_booking').slideUp("slow").hide();
-	jQuery('#contactWrapper').append('<div class="success"><h4>Email Successfully Sent!</h4><br><p>Thank you for using our contact form <strong>'+decodeURIComponent(name)+'</strong>! Your email was successfully sent and we&#39;ll be in touch with you soon.</p></div>');
+	jQuery('#contactWrapper').append('<div class="success"><h4>Email Successfully Sent!</h4><br><p>Thank you for Contacting us. <strong>'+decodeURIComponent(name)+'</strong>! Your email was successfully sent and we&#39;ll be in touch with you soon.</p></div>');
 	}
 }
 
@@ -91,7 +91,7 @@ function sendRequest_loans() {
 	catch(e){}
 	finally{
 	jQuery('#contactform_popup').slideUp("slow").hide();
-	jQuery('#contactWrapper_popup').append('<div class="success"><h4>Email Successfully Sent!</h4><br><p>Thank you for using our contact form <strong>'+name+'</strong>! Your email was successfully sent and we&#39;ll be in touch with you soon.</p></div>');
+	jQuery('#contactWrapper_popup').append('<div class="success"><h4>Email Successfully Sent!</h4><br><p>Thank you for Contacting us.<strong>'+name+'</strong>! Your email was successfully sent and we&#39;ll be in touch with you soon.</p></div>');
 	}
 }
 
